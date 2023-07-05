@@ -15,8 +15,8 @@ describe('myFirstTestSuite', () =>
         cy.get(".oxd-text.oxd-text--h6.oxd-topbar-header-breadcrumb-module").contains("Dashboard")
     })
 
-    // it('testCase3-verifyTitleNegative', () => {
-    //     cy.visit("https://opensource-demo.orangehrmlive.com")
-    //     cy.title().should('eq', 'OrangeHRM123')  
-    // })
+    it('testCase3-verifyTitleNegative', () => {
+        cy.visit("https://opensource-demo.orangehrmlive.com")
+        cy.title().should('eq', 'OrangeHRM123')  
+    })
 })
