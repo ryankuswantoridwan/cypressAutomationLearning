@@ -1,3 +1,5 @@
+// this tests are using cssLocators
+
 describe('myFirstTestSuite', () => 
 {
     it('testCase1-verifyTitlePositive', () => {
