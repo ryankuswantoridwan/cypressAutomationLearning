@@ -1,5 +1,5 @@
-const cypress = require("cypress")
-const { it, describe } = require("mocha")
+// const cypress = require("cypress")
+// const { it, describe } = require("mocha")
 
 
 describe('XPathLocators', () =>{
@@ -7,8 +7,8 @@ describe('XPathLocators', () =>{
     it('find no products', () =>{
 
         cy.visit("https://rahulshettyacademy.com/seleniumPractise/#/")
-        cy.get("//div[@class='products']/div").should('have.lenght', 30)
-
+        cy.xpath("//body/div[@id='root']/div[@class='container']//img").should('jave.lenght', 7)
+        // cy.
     })
 
 })

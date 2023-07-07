@@ -1,3 +1,11 @@
+// CSS Selector
+
+// tag id                  tag#id
+// tag class               tag.class
+// tag atrribute           tag[attribute='value']
+// tag class attribute     tag.class[attribute='value']
+
+// cy.get(Locator)
 
 describe('cssLocators', () =>{
 
